@@ -129,10 +129,12 @@ Keep the remote powered and connected to Wi-Fi during installation. A download, 
 
 Supported devices:
 
-- **Guition ESP32-P4 JC4880P443, 4.3-inch display** - highly recommended
+- **Guition ESP32-P4 JC4880P443, 4.3-inch display** - highly recommended due to larger display size
 - **Guition JC2432W328C** - recommended capacitive CYD
+
+The following CYD variants are untested and not officially supported:
 - **Guition JC8048W550C, 5-inch 800x480 display** (untested)
-- **ESP32-024 and ESP32-2432S028-style resistive CYDs** - largely supported but **not recommended**
+- **ESP32-024 and ESP32-2432S028, and other resistive CYDs** - implemented for only a few variants, not guaranteed to work on many variants due to the large combination of touch/display drivers **STRONGLY NOT RECOMMENDED**
 
 On first boot, the firmware shows a one-time touch setup screen to confirm the touch hardware.
 
